@@ -5,16 +5,5 @@ names = "김형규 (20200369)",
     "변정수 (2025111423)"
 ]
 
-name = input("삭제할 이름을 입력하세요: ")
-
-if name in names:
-    names.remove(name)
-    print(f"{name} 님의 이름이 삭제되었습니다!")
-else:
-    print("해당 이름이 목록에 없습니다.")
-
-print("\n[현재 남은 명단]")
-for n in names:
-    print("-", n)
-
+name = input("삭제할 이름을 입력하세요")
 print("이 파일은 수정되었습니다.")
